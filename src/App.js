@@ -16,7 +16,9 @@ function App() {
       <BannerMain
         videoTitle={dados.categorias[0].videos[0].titulo}
         url={dados.categorias[0].videos[0].url}
-        videoDescription={"O que é FrontEnd? Descubra aqui"}
+        videoDescription={
+          "Você já criou interfaces responsivas? Bora aprimorar as habilidades?"
+        }
       />
       {dados.categorias.map((categoria) => (
         <Carousel category={categoria} />

@@ -10,20 +10,20 @@
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Twitter Responsivo com ReactJS | UI Clone",
+          "url": "https://www.youtube.com/watch?v=K-8z_4xvT3o"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Menu do Stripe com ReactJS | UI Clone",
+          "url": "https://www.youtube.com/watch?v=B7V0q0ZSz2o"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Nova Oportunidade Para Aprender JavaScript, TypeScript, Node.js, React, React Native, HTML, CSS...",
+          "url": "https://www.youtube.com/watch?v=fj_CaYHTPVE"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Criando um projeto do zero para seu portfólio | Masterclass #14",
+          "url": "https://www.youtube.com/watch?v=EhnXaybirdA"
         },
         {
           "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
@@ -40,24 +40,24 @@
         {
           "titulo": "Base para aprender os frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+        }
       ]
     },
     {
       "titulo": "Back End",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "DRY, KISS, YAGNI | Code/Drops #27",
+        "url": "https://www.youtube.com/watch?v=5yJ_cAUrpQc"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Por que useCallback faz tanto sentido? | Code/Drops #13",
+          "url": "https://www.youtube.com/watch?v=jMWNNSx-mcU"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "TypeScript com NodeJS do jeito certo! | Diego Fernandes",
+          "url": "https://www.youtube.com/watch?v=aTf8QTjw4RE"
         },
         {
           "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
@@ -66,7 +66,7 @@
         {
           "titulo": "API: Dicionário do Programador",
           "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+        },
         {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
@@ -100,24 +100,24 @@
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Filmes e Séries",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Privacidade Hackeada",
+          "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Altered Carbon",
+          "url": "https://www.youtube.com/watch?v=-Yt89b5AcwY"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Stranger Things",
+          "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "STAR WARS 9",
+          "url": "https://www.youtube.com/watch?v=LYutHgaXjyI"
         }
       ]
     },
@@ -125,32 +125,33 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Alguns games",
+        "url": "https://www.youtube.com/watch?v=6FAldb21s2E"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "PUBG MOBILE",
+          "url": "https://www.youtube.com/watch?v=WO1FcVCyHrU"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Free Fire",
+          "url": "https://www.youtube.com/watch?v=pKUu6PKNyzk"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "RED DEAD REDEMPTION 2",
+          "url": "https://www.youtube.com/watch?v=BoohYJlRXa8"
         },
         {
           "titulo": "Resident Evil 8",
           "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "CSGO",
+          "url": "https://www.youtube.com/watch?v=p5VD49suIUw"
         }
       ]
     },
+
     {
       "titulo": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
@@ -178,6 +179,40 @@
         {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "titulo": "Músicas",
+      "cor": "#561E64",
+      "link_extra": {
+        "text": "Músicas variadas",
+        "url": "https://www.youtube.com/"
+      },
+      "videos": [
+        {
+          "titulo": "Leonardo Gonçalves - sublime (Vídeo Ao Vivo)",
+          "url": "https://www.youtube.com/watch?v=8-KGd77URxo"
+        },
+        {
+          "titulo": "KB - Crowns & Thorns (Oceans)",
+          "url": "https://www.youtube.com/watch?v=6CMvGQDq4Uw"
+        },
+        {
+          "titulo": "Consequências - Daniela Araújo e Estratagema de Deus (Ao Vivo)",
+          "url": "https://www.youtube.com/watch?v=kOEhgMYvP8w"
+        },
+        {
+          "titulo": "Lecrae - I'll Find You ft. Tori Kelly",
+          "url": "https://www.youtube.com/watch?v=Jv8IqJm6q7w"
+        },
+        {
+          "titulo": "Priscilla Alcantara - Florescer",
+          "url": "https://www.youtube.com/watch?v=0lPDpMTTVDs"
+        },
+        {
+          "titulo": "ME LEMBRO - Kemuel | Gabriela Rocha (no VIOLÃO) Fingerstyle",
+          "url": "https://www.youtube.com/watch?v=z6R7zLMHfHg"
         }
       ]
     }
