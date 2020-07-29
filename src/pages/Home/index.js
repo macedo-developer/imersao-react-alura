@@ -1,14 +1,14 @@
 import React from "react";
 
-import Menu from "./components/Menu";
+import Menu from "../../components/Menu";
 
-import dados from "./data/dados_iniciais.json";
+import dados from "../../data/dados_iniciais.json";
 
-import BannerMain from "./components/BannerMain";
-import Carousel from "./components/Carousel";
-import Footer from "./components/Footer";
+import BannerMain from "../../components/BannerMain";
+import Carousel from "../../components/Carousel";
+import Footer from "../../components/Footer";
 
-function App() {
+function Home() {
   return (
     <>
       <Menu />
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
