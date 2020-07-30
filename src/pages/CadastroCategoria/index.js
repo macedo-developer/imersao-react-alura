@@ -4,6 +4,8 @@ import PageDefault from "../../components/PageDefault";
 import FormField from "../../components/FormField";
 import { Link } from "react-router-dom";
 
+import { Form } from "./style";
+
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: "",
@@ -34,7 +36,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>Cadastro de Categoria</h1>
 
-      <form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <FormField
           value={formCategoria.nome}
           onChange={handleSetValues}
@@ -60,7 +62,7 @@ function CadastroCategoria() {
         />
 
         <button type="submit">Cadastrar</button>
-      </form>
+      </Form>
       <ul>
         {categorias.map((categoria, index) => (
           <li key={index}>{categoria.nome}</li>

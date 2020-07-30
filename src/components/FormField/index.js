@@ -1,11 +1,13 @@
 import React from "react";
 
+import { Field, Label, Input } from "./style";
+
 function FormField({ value, onChange, label, type, name }) {
   return (
-    <label>
-      {label}:
-      <input type={type} value={value} onChange={onChange} name={name} />
-    </label>
+    <Field>
+      <Input type={type} value={value} onChange={onChange} name={name} />
+      <Label>{label}</Label>
+    </Field>
   );
 }
 
