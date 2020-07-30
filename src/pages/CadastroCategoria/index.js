@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import PageDefault from "../../components/PageDefault";
+import FormField from "../../components/FormField";
 import { Link } from "react-router-dom";
 
 function CadastroCategoria() {
@@ -18,12 +19,15 @@ function CadastroCategoria() {
     e.preventDefault();
 
     setCategorias([...categorias, formCategoria]);
-
-    console.log(categorias);
   }
 
-  function handleSetValues(key, value) {
-    setFormCategoria({ ...formCategoria, [key]: value });
+  function handleSetValues(e) {
+    const { value } = e.target;
+
+    setFormCategoria({
+      ...formCategoria,
+      [e.target.getAttribute("name")]: value,
+    });
   }
 
   return (
@@ -31,31 +35,29 @@ function CadastroCategoria() {
       <h1>Cadastro de Categoria</h1>
 
       <form onSubmit={handleSubmit}>
-        <label>
-          Nome da Categoria:
-          <input
-            type="text"
-            value={formCategoria.nome}
-            onChange={(e) => handleSetValues("nome", e.target.value)}
-          />
-        </label>
+        <FormField
+          value={formCategoria.nome}
+          onChange={handleSetValues}
+          label="Nome da Categoria"
+          type="text"
+          name="nome"
+        />
 
-        <label>
-          Descrição:
-          <textarea
-            value={formCategoria.descricao}
-            onChange={(e) => handleSetValues("descricao", e.target.value)}
-          />
-        </label>
+        <FormField
+          value={formCategoria.descricao}
+          onChange={handleSetValues}
+          label="Descrição"
+          type="text"
+          name="descricao"
+        />
 
-        <label>
-          Cor:
-          <input
-            type="color"
-            value={formCategoria.color}
-            onChange={(e) => handleSetValues("color", e.target.value)}
-          />
-        </label>
+        <FormField
+          value={formCategoria.color}
+          onChange={handleSetValues}
+          label="Cor"
+          type="color"
+          name="color"
+        />
 
         <button type="submit">Cadastrar</button>
       </form>
