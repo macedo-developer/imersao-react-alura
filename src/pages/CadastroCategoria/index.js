@@ -23,6 +23,8 @@ function CadastroCategoria() {
       ? "http://localhost:3001/categoria"
       : "https://backend-rehflix.herokuapp.com/categoria";
 
+    console.log(url);
+
     fetch(url).then(async (response) => {
       const res = await response.json();
 
