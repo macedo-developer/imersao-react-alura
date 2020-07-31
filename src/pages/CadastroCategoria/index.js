@@ -19,7 +19,9 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const url = "http://localhost:3001/categoria";
+    const url = window.location.hostname.includes("localhost")
+      ? "http://localhost:3001/categoria"
+      : "https://backend-rehflix.herokuapp.com/categoria";
 
     fetch(url).then(async (response) => {
       const res = await response.json();
