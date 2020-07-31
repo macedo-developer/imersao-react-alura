@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 import PageDefault from "../../components/PageDefault";
@@ -17,6 +17,16 @@ function CadastroCategoria() {
   const [formCategoria, setFormCategoria] = useState(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
+
+  useEffect(() => {
+    const url = "http://localhost:3001/categoria";
+
+    fetch(url).then(async (response) => {
+      const res = await response.json();
+
+      setCategorias([...res]);
+    });
+  }, []);
 
   function handleSubmit(e) {
     e.preventDefault();
