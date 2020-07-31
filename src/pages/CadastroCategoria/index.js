@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
+import { Link } from "react-router-dom";
 import PageDefault from "../../components/PageDefault";
 import FormField from "../../components/FormField";
-import { Link } from "react-router-dom";
+import Button from "../../components/Button";
 
 import { Form } from "./style";
 
@@ -49,7 +50,7 @@ function CadastroCategoria() {
           value={formCategoria.descricao}
           onChange={handleSetValues}
           label="Descrição"
-          type="text"
+          type="textarea"
           name="descricao"
         />
 
@@ -61,7 +62,7 @@ function CadastroCategoria() {
           name="color"
         />
 
-        <button type="submit">Cadastrar</button>
+        <Button type="submit">Cadastrar</Button>
       </Form>
       <ul>
         {categorias.map((categoria, index) => (
