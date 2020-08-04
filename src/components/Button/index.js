@@ -16,6 +16,8 @@ const Button = styled(Link)`
   display: inline-block;
   transition: opacity 0.3s;
 
+  text-align: center;
+
   &:hover,
   &:focus {
     opacity: 0.5;

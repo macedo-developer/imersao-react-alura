@@ -9,6 +9,7 @@ export const Field = styled.div`
 
   input[type="color"] {
     padding-left: 56px;
+    height: 57px;
   }
 `;
 
@@ -19,7 +20,7 @@ export const Input = styled.input`
   display: block;
   width: 100%;
   height: 57%;
-  font-size: 18px;
+  font-size: 16px;
 
   outline: 0;
   border: 0;
@@ -61,7 +62,7 @@ Label.Text = styled.span`
   display: flex;
   align-items: center;
   transform-origin: 0% 0%;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 300;
 

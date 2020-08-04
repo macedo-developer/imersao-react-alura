@@ -6,5 +6,5 @@ export const Main = styled.div`
 
   flex: 1;
 
-  padding: 50px 5% 0 5%;
+  padding: 50px 5% 5% 5%;
 `;

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import { Link } from "react-router-dom";
 import PageDefault from "../../components/PageDefault";
 import FormField from "../../components/FormField";
 import Button from "../../components/Button";
@@ -49,7 +48,7 @@ function CadastroCategoria() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria</h1>
+      <h3>Cadastro de Categoria</h3>
 
       <Form onSubmit={handleSubmit}>
         <FormField
@@ -83,8 +82,6 @@ function CadastroCategoria() {
           <li key={index}>{categoria.nome}</li>
         ))}
       </ul>
-
-      <Link to="/">Ir para home</Link>
     </PageDefault>
   );
 }
